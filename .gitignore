@@ -1,0 +1,37 @@
+# --- Python Specific ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Secrets & Environment ---
+.env
+.env.secret
+secret_key.py
+backend_client.py
+test_db.py
+
+# --- Databases & Local Assets ---
+# Ignore all uploads except the dummy file for structure
+uploads/*
+!uploads/dummy.csv
+
+# Ignore local database files if any are created (like SQLite)
+*.db
+*.sqlite3
+
+# --- Editor & OS Specific ---
+.vscode/
+.idea/
+.DS_Store
+thumbs.db
+desktop.ini
+
+# --- Streamlit ---
+.streamlit/
