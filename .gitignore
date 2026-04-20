@@ -9,6 +9,7 @@ venv/
 .venv/
 pip-log.txt
 pip-delete-this-directory.txt
+.ipynb_checkpoints/
 
 # --- Secrets & Environment ---
 .env
@@ -18,13 +19,10 @@ backend_client.py
 test_db.py
 
 # --- Databases & Local Assets ---
-# Ignore all uploads except the dummy file for structure
+
 uploads/*
 !uploads/dummy.csv
-
-# Ignore local database files if any are created (like SQLite)
-*.db
-*.sqlite3
+uploads/ML-P7-Social_Network_Ads.csv
 
 # --- Editor & OS Specific ---
 .vscode/
@@ -33,5 +31,5 @@ uploads/*
 thumbs.db
 desktop.ini
 
-# --- Streamlit ---
+# --- Streamlit & Visualization ---
 .streamlit/
